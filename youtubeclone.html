@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtubeclone</title>
+
+    <link rel="stylesheet" href="youtubeclone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="Icon" type="Image/png" href="https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg">
+</head>
+<body>
+    <header class="youtubeheader">
+      <div class="youtubemenu">
+        <span class="material-symbols-outlined">
+          menu
+          </span>
+     </div>
+     <div class="youtubelogo">
+        <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" class="youtubelogosvg"><g viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" class="style-scope ytd-topbar-logo-renderer">
+            <g class="style-scope ytd-topbar-logo-renderer">
+              <path fill="#FF0000" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                S64.31,19.77,63,14.87z" class="style-scope ytd-topbar-logo-renderer"></path>
+              <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57" class="style-scope ytd-topbar-logo-renderer"></polygon>
+            </g>
+            <g class="style-scope ytd-topbar-logo-renderer">
+              <g id="youtube-paths" class="style-scope ytd-topbar-logo-renderer">
+                <path fill="#282828" d="M92.69,48.03c-1.24-0.84-2.13-2.14-2.65-3.91c-0.52-1.77-0.79-4.12-0.79-7.06v-4
+                  c0-2.97,0.3-5.35,0.9-7.15c0.6-1.8,1.54-3.11,2.81-3.93c1.27-0.82,2.94-1.24,5.01-1.24c2.04,0,3.67,0.42,4.9,1.26
+                  c1.23,0.84,2.13,2.15,2.7,3.93c0.57,1.78,0.85,4.16,0.85,7.12v4c0,2.94-0.28,5.3-0.83,7.08c-0.55,1.78-1.45,3.09-2.7,3.91
+                  c-1.24,0.82-2.93,1.24-5.06,1.24C95.65,49.29,93.93,48.87,92.69,48.03z M99.66,43.71c0.34-0.9,0.52-2.37,0.52-4.4v-8.59
+                  c0-1.98-0.17-3.42-0.52-4.34c-0.34-0.91-0.95-1.37-1.82-1.37c-0.84,0-1.43,0.46-1.78,1.37c-0.34,0.91-0.52,2.36-0.52,4.34v8.59
+                  c0,2.04,0.16,3.51,0.49,4.4c0.33,0.9,0.93,1.35,1.8,1.35C98.71,45.06,99.31,44.61,99.66,43.71z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M188.16,37.13v1.39c0,1.77,0.05,3.09,0.16,3.98c0.1,0.88,0.32,1.53,0.65,1.93
+                  c0.33,0.4,0.84,0.61,1.53,0.61c0.93,0,1.57-0.36,1.91-1.08c0.34-0.72,0.53-1.92,0.56-3.6l5.35,0.31
+                  c0.03,0.24,0.04,0.57,0.04,0.99c0,2.55-0.7,4.45-2.09,5.71c-1.39,1.26-3.36,1.89-5.91,1.89c-3.06,0-5.2-0.96-6.43-2.88
+                  c-1.23-1.92-1.84-4.88-1.84-8.9v-4.81c0-4.14,0.64-7.15,1.91-9.06c1.27-1.9,3.45-2.85,6.54-2.85c2.13,0,3.76,0.39,4.9,1.17
+                  c1.14,0.78,1.94,1.99,2.41,3.64c0.46,1.65,0.7,3.93,0.7,6.83v4.72H188.16z M188.95,25.53c-0.31,0.39-0.52,1.03-0.63,1.91
+                  c-0.11,0.88-0.16,2.23-0.16,4.02v1.98h4.54v-1.98c0-1.77-0.06-3.11-0.18-4.02c-0.12-0.91-0.34-1.56-0.65-1.93
+                  c-0.31-0.37-0.8-0.56-1.46-0.56C189.75,24.94,189.26,25.14,188.95,25.53z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M77.59,36.61l-7.06-25.49h6.16l2.47,11.55c0.63,2.85,1.09,5.27,1.39,7.28h0.18
+                  c0.21-1.44,0.67-3.85,1.39-7.24l2.56-11.6h6.16L83.7,36.61v12.23h-6.11V36.61z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M126.45,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+                  c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+                  c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H126.45z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M158.27,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+                  c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+                  c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H158.27z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M143.31,16.11h-6.16v32.72h-6.07V16.11h-6.16v-4.99h18.38V16.11z" class="style-scope ytd-topbar-logo-renderer"></path>
+                <path fill="#282828" d="M178.8,25.69c-0.38-1.74-0.98-3-1.82-3.78c-0.84-0.78-1.99-1.17-3.46-1.17c-1.14,0-2.2,0.32-3.19,0.97
+                  c-0.99,0.64-1.75,1.49-2.29,2.54h-0.05l0-14.52h-5.98v39.11h5.12l0.63-2.61h0.13c0.48,0.93,1.2,1.66,2.16,2.2
+                  c0.96,0.54,2.02,0.81,3.19,0.81c2.1,0,3.64-0.97,4.63-2.9c0.99-1.93,1.48-4.95,1.48-9.06v-4.36
+                  C179.36,29.84,179.17,27.43,178.8,25.69z M173.11,36.93c0,2.01-0.08,3.58-0.25,4.72c-0.16,1.14-0.44,1.95-0.83,2.43
+                  c-0.39,0.48-0.91,0.72-1.57,0.72c-0.51,0-0.98-0.12-1.42-0.36c-0.43-0.24-0.79-0.6-1.06-1.08V27.71
+                  c0.21-0.75,0.57-1.36,1.08-1.84c0.51-0.48,1.06-0.72,1.66-0.72c0.63,0,1.12,0.25,1.46,0.74c0.34,0.49,0.58,1.33,0.72,2.49
+                  c0.13,1.17,0.2,2.83,0.2,4.99V36.93z" class="style-scope ytd-topbar-logo-renderer"></path>
+              </g>
+            </g>
+          </g></svg>
+     </div>
+     <div class="youtubesearch">
+        <input class="searchbar" placeholder="search" >
+        <button class="searchIconHeader"><i class="fa fa-search"></i></button>
+     </div>
+     <div class="youtubeHeaderIcons">
+       <div class="youtubeIcon">
+        <i class="fa fa-video-camera"></i>
+       </div>
+       <div class="youtubeIcon">
+        <i class="fa fa-th"></i>
+       </div>
+       <div class="youtubeIcon">
+        <i class="fa fa-bell"></i>
+       </div>
+       <div class="youtubeIconAvatar">
+        <img class="youtubeheaderavatarIcon" src="https://yt3.ggpht.com/yti/AHXOFjWhy-pykZy4308sef40pTk17OZHIuflrrypuF-B2w=s88-c-k-c0x00ffffff-no-rj-mo">
+       </div>
+     </div>
+    </header>
+    <div class="youtubeBottomSection">
+      <div class="youtubeSideBar">
+       <div class="youtubeSideBarField"> 
+        <i class="fa fa-home"></i>
+        <h6>Home</h6>
+       </div>
+       <div class="youtubeSideBarField"> 
+        <span class="material-symbols-outlined">
+          electric_bolt
+          </span>
+        <h6>Shorts</h6>
+       </div>
+       <div class="youtubeSideBarField"> 
+        <span class="material-symbols-outlined">
+          subscriptions
+          </span>
+        <h6>Subscriptions</h6>
+       </div>
+       <div class="youtubeSideBarField"> 
+        <span class="material-symbols-outlined">
+          video_library
+          </span>
+        <h6>Library</h6>
+       </div>
+      </div>
+      <div class="youtubeVideos">
+        
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/wjoS-qfM0uQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_UwdoYiq7P3Jki8Bu8woOsUC6bw" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.googleusercontent.com/ytc/AL5GRJVhgGy_IOUXdmJOMjAeN2Srz7kw3Ec9E62fQDRj=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Manchester United ● Road to Glory - Champions League Final 2007/2008 </p>
+               <P class="youtubeChannelName"> Football Flashback</P>
+                <p class="youtubeVideoViews">4M views 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/6wmXsIPDH5I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKCHn3mCQOs6TIJVUHn3AD9xrLBQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.googleusercontent.com/ytc/AL5GRJXDRaOL_w9P2ZUAK_kyCBM734pNeU8ALIcaLAhT=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Real Life Of An Amazon Software Engineer (Seattle) </p>
+               <P class="youtubeChannelName">Rahil Atre </P>
+                <p class="youtubeVideoViews">39k views 13 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/cZfb2HU7c9o/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8VFQEny-Tmxv3Jz4PXok7JEhpDw" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.googleusercontent.com/D8NuAadfCN9AiZBGWevtLGx8d8ZhtsISoMPhtA28-wnt8AQXh9TwURDEOp6gmM34zkHseo6fwQ=s176-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">I Don't Give a Fuck (feat. Pharmacist) </p>
+               <P class="youtubeChannelName">Ghostface Playa </P>
+                <p class="youtubeVideoViews">2M views 3 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/s5tNBnYyVLQ/maxresdefault.jpg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/SD45jkCxKtyhe5MNcQm8wt9j-LKNfB47Y6cZc1QEDpoW8JeBmdNxYkR4fQl2573TGtIxdoFXug=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Unakkul Naane (Lyrics) - Pritt |trending song</p>
+               <P class="youtubeChannelName">Mu6ic2.5</P>
+                <p class="youtubeVideoViews">35K views 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/UKzm48CIMgM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChZHG4sIiINL1zMnW5Z04GrFP3AA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXAB3ALM9Fd9uyUdcOesFOonxV6Menwg9zgo439=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Most Powerful Fortuner In India - Toyota Fortuner Owner Review | Superman Sree</p>
+               <P class="youtubeChannelName"> Road Pulse </P>
+                <p class="youtubeVideoViews">2k views 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/DH1tVM4yOcU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_96ltkqWluozHXsnbXIuS6AZ6Qg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJWBJfUVkhjM8YSxhPCtc65BjaTw5f9J2HCfSbikng=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Hridayam - Audio Jukebox (Side B) | Pranav | Kalyani | Darshana |Vineeth |Hesham |Visakh |Merryland </p>
+               <P class="youtubeChannelName"> Think Music India </P>
+                <p class="youtubeVideoViews">5M views 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/q8nHd-kRhc0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD79j8jHR522Rd7GWzzc8d92tCAbg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJU6XFI38JQaqvgn_-elk8cOvGamBHfVhwtxAblgJQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Crazy Rich Asians Home|Belanda House|Asia's Most Luxurious Mansion|Modern Extraordinary Architecture</p>
+               <P class="youtubeChannelName">Design Seed </P>
+                <p class="youtubeVideoViews">40k views 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/iF0I2SPk5JU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB456rsPpuChqjd_tIY7EpfvQDD4A" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/h_5EX_GD2dB4Ti3cQbQ1BjGkm_M-EN_z_mWSw7KG-kYzswbULF5bTogzGRm-KcawIqiXgcnJiOM=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">5 Math Skills Every Programmer Needs</p>
+               <P class="youtubeChannelName">Power Couple</P>
+                <p class="youtubeVideoViews">132K views 10 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/iEKwIhVdFaw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg9lc_ZRKMX8CXz486x6qC5aDQiw" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJX1e7tyxLoPerO8zwUZTVJiEGrg7U8S1eKo7heplcw=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Government Wants To Take India On Long-Term Growth: G20 Sherpa Amitabh Kant </p>
+               <P class="youtubeChannelName"> NDTV </P>
+                <p class="youtubeVideoViews">4k views 2 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/CsOJ6p2F4Tg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQUsKXNqL9dwpo_0UNRz77fNhJDQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXrhwBCeDBh08PCi3ZQ4ai6Gxl53oAS3DDdk6hm=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Enkilum Chandrike Title Song | Suraj Venjaramoodu | Basil Joseph | Saiju Kurup | Vineeth | Adithyan</p>
+               <P class="youtubeChannelName">Friday Music Company</P>
+                <p class="youtubeVideoViews">572K views 6 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/_faZ5v3mnYo/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHGHzoWxRdStBtlRmpFqmAiHc4gQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXDmuFnHc2JpGsP_vJZVi4UOkC5NkUyOA4535L2_cQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">ചിന്തയുടെ ചിന്തകൾ!'ഗം' Kerala Youth Commission chairperson Chintha Jerome Salary Controversy | GUM</p>
+               <P class="youtubeChannelName"> asianetnews </P>
+                <p class="youtubeVideoViews">612k views 6 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/RH7G-N2pa8M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgle8Wgb1aGtCW7mL0i99v_hSxAg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/o4MZVi2qdNgx0K7vpEl7DT2PefjROdisZTD7is6TMimF1_DTM49O1ld3iQzTpE5MCj86c-vzav8=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">13.7 Multithreading Synchronized Keyword </p>
+               <P class="youtubeChannelName">Telusko</P>
+                <p class="youtubeVideoViews">350K views 6 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/zipB7JPBgR0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApGZfR51mHx_UKdXcYyXbBklpNTQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/omaxnePEWUVQB7Eq14K7YAtSIVos4KlhIXMhEkQCSN4VJxb2kUGDRWnuKCbuGBYtlWVgnPmVHA=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">₹10 ഇൻ്റെ സാധനം ₹50ആക്കുന്ന trick അറിഞ്ഞാൽ കാര്യം നടക്കും💰 Way Of Life Vlog New Delhi Mega Market 🤑</p>
+               <P class="youtubeChannelName"> Way Of Life</P>
+                <p class="youtubeVideoViews">227K views 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/dAHqcEnPIXw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCP_12ETN8-HjOMEfBtbDwmJg9JIA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/g3IqVjrfuD4tufX8d5hUq27FgdvK6r7zra5_GtSMlQw5H50oK2zkdp3z98bG22Ry-sCWtSRk=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Tom Cruise escapes from a maximum security prison | Jack Reacher 2 | CLIP</p>
+               <P class="youtubeChannelName"> Boxoffice Movie Scenes </P>
+                <p class="youtubeVideoViews">4.8M views 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/o5xaC8dEwGw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDI_96oRjRvSMFYiJBxAwGQXDrBIQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/Z7OCTeNxI8hfAPfMdNRSQgUzil9X6l8BxBBjskdsLvgqnYFkMrSMxpikiPUOff3bN2MizwoIVA=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Bro Camp Expectation vs Reality | Bro Camp experience | @BrototypeMalayalam | Bro camp review</p>
+               <P class="youtubeChannelName">Ibrahim Badusha</P>
+                <p class="youtubeVideoViews">270K views 8 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/EehbTWT4rOw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFmTRoeZEwZWK-j7oufLEhU_FYdQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJVMVuY7l6vI6TzDEV4GDxKIBSpG1IjQcEewkYwr=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">▶ Men Will Be Men Imperial Blue Creative Funny Ads Collection | TVC Episode E7S14</p>
+               <P class="youtubeChannelName"> DesiKaliah</P>
+                <p class="youtubeVideoViews">2M views 10 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/wC9hUheT2Mw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVHlaWr2ZQj-1mBncb679kQmZ_wA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXDmuFnHc2JpGsP_vJZVi4UOkC5NkUyOA4535L2_cQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">കെ.സുരേന്ദ്രൻ്റെ മുദ്ര ബിജെപിയുടെയും!'ഗം' | K Surendran | GUM | 17 Jan 2023</p>
+               <P class="youtubeChannelName"> asianetnews</P>
+                <p class="youtubeVideoViews">265M views 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/ZxlmXzZJu4A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKB0XZTI7KnSBcVoDdQFXpzTg_DA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJUwO1j1c-6LsUtr63FHjUAAS95CizsYQ4QT-fQxUQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">What Rest of India Think about Kerala? | DV083</p>
+               <P class="youtubeChannelName"> Karthik Surya</P>
+                <p class="youtubeVideoViews">668K views 7 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/ys9nDLS97sI/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhyIE8oOTAP&rs=AOn4CLAfLZVThbcB4MPZh3YdWfH9N_ykKg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJWrgkO76xZ9VyLSdBQ7xFtH4ON8dbjrOgCPRZs3=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">KGF 2 | Yash Entry Bgm | Original #kgf2bgm #kgf2song</p>
+               <P class="youtubeChannelName">AWESOME BGM</P>
+                <p class="youtubeVideoViews">2.2M views 8 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/jfKfPfyJRdk/hq720_live.jpg?sqp=CKD97J4G-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABLTzevjzEMV6Rgh_hkmMCL2Af0Q" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/KNYElmLFGAOSZoBmxYGKKXhGHrT2e7Hmz3WsBerbam5uaDXFADAmT7htj3OcC-uK1O88lC9fQg=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">lofi hip hop radio - beats to relax/study to</p>
+               <P class="youtubeChannelName"> Lofi Girl </P>
+                <p class="youtubeVideoViews">44K views 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/WCtJ_EZQQBM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnbtinaxvQY_HlsTFyCc494Rh0TQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJUp3VUzmZgpo4Wb0AUhRewBjpXYv_-UVcIIXKCISw=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">8K HDR IMAX | Target -02:15.00 (Top Gun Maverick) | Dolby 5.1</p>
+               <P class="youtubeChannelName"> 4K Clips And Trailers</P>
+                <p class="youtubeVideoViews">370K views 3 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/9FYZ3xYV3ng/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsKC0idiyWct4TrpmiVrI93L0PQQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://i.ytimg.com/vi/9FYZ3xYV3ng/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsKC0idiyWct4TrpmiVrI93L0PQQ" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">20,000 കോടിയുടെ എഫ്പിഒ റദ്ദാക്കി അദാനി ഗ്രൂപ്പ് |Adani</p>
+               <P class="youtubeChannelName">Manorama News </P>
+                <p class="youtubeVideoViews">4k views 4 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/VYqEj5dQxx8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWQDJyDTQmJ66EoXbXaK3OuqhcsQ" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJVvGcqfifOVTfu8dQu43Dp6XTgIsMTAmn2-q1vo=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">മാരുതി ഞെട്ടും ഈ WAGON R കണ്ടാൽ | Maruti Wagon R Modified </p>
+               <P class="youtubeChannelName">Keralakaumudi News</P>
+                <p class="youtubeVideoViews">430K views 8 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/Diq1eIH4pSI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWTbMUzezP5QyQZRlAIm1eejA9Yg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXGgmIAchgkK8BZd_7356Ebn4zDhe62RpXYSSuj=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">നെതർലൻഡ്സ് വിളിക്കുന്നു Netherlands Work Visa – Essential start-up visa </p>
+               <P class="youtubeChannelName"> PCD people call me Dude</P>
+                <p class="youtubeVideoViews">267K views 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/QBtAIea5hmU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAy-Juru760i8HhV1WmAWPAWkLsCA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/lAtwPJIJAQYsHrdHYo7zXDi_qxDPpiO4v7fJsJ70toJ-uBl6ySAWauUd1TXCRP5DqhD0lnu_Ng=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Thuramukham Malayalam Movie Official Trailer Nivin Pauly Nimisha Sajayan Rajeev Ravi 2023 </p>
+               <P class="youtubeChannelName"> Mentosss7rm</P>
+                <p class="youtubeVideoViews">411K views 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/BOx9tfkf9YA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3vOAyuzYHIurZhiOvTAB8g99_Pg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/shEsam9XKEnqZjwAUaRr7eiecYWg1KI5ONIO02y-hi2b3aXMyW1q71OkAf7Gl6EdJYnh58ej=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Vilayath Buddha - Making Video | Prithviraj Sukumaran | Jayan Nambiar | Sandip Senan| UrvasiTheatres</p>
+               <P class="youtubeChannelName"> Urvasi Theatres</P>
+                <p class="youtubeVideoViews">137K views 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/KjUtWd0Up_U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDStvEbI4RVffHSuKkhVaiMd2PAWA" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJXa4KELmfTVroTBkoXndwUqktgOJH2nJWQWw8mj1Q=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">Brabus Modified Suzuki Jimny | ഗംഭീര മോഡിഫിക്കേഷൻ | Jimny Malayalam Review | Najeeb </p>
+               <P class="youtubeChannelName"> Najeeb Rehman KP </P>
+                <p class="youtubeVideoViews">32K views 4 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="youtubeVideo">
+          <img src="https://i.ytimg.com/vi/ti-b0hGdggQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8qLp3sasabYKtl4rQUMTmP9wbsg" class="youtubeVideoThumbnail" >
+          <div class="youtubeVideoDetails">
+            <img class="youtubeChannelThumpnail"   src="https://yt3.ggpht.com/ytc/AL5GRJUp3VUzmZgpo4Wb0AUhRewBjpXYv_-UVcIIXKCISw=s68-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="youtubeVideoDetailsText">
+              <p class="youtubeVideoTitle">4K HDR IMAX | Teaser - Avatar: The Way of Water | Dolby 5.1 </p>
+               <P class="youtubeChannelName">4K Clips And Trailers</P>
+                <p class="youtubeVideoViews">439K views 1 month ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
